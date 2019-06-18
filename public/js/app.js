@@ -1,4 +1,3 @@
-console.log('js file is excuted')
 
 // fetch('http://localhost:3000/weather?address=jodhpur').then((response)=>{
 
