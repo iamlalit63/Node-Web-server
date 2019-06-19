@@ -20,7 +20,7 @@ weatherform.addEventListener('submit',(e)=>{
     message_one.textContent = 'loading...'
     message_two.textContent = ''
 
-    fetch('http://localhost:3000/weather?address='+search.value).then((response)=>{
+    fetch('/weather?address='+search.value).then((response)=>{
 
     response.json().then((data)=>{
                    
